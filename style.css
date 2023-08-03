@@ -1,0 +1,627 @@
+body{
+    font-family: 'Poppins-Regular';
+    font-size: 14px;
+    line-height: 1.5715;
+    margin: 0;
+}
+
+/*      TOP   BAR    */
+.top-bar{
+    background-color: #eee;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 12px;
+    width: 100%;
+}
+.top-bar ul{
+    margin: 0;
+}
+.top-bar ul li{
+    color: #666;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.lang-btn{
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 32px;
+    padding: 4px 15px;
+}
+
+/*     NAV     BAR     */
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(26, 20, 20, 0.1);
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0;
+}
+.sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+.navbar-brand{
+    padding: 0.3125rem 0;
+}
+.navbar-collapse{
+    align-items: center;
+    display: flex;
+}
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+} 
+.nav-item{
+    list-style-type: none;
+    margin-right: 15px;
+}
+.nav-link{
+    color: black !important;
+}
+.donate-btn{
+    background: #0d6db7!important;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px 30px!important;
+}
+
+/*    HOME   PAGE    */
+.slick-slider{
+    background-image: url(https://saylaniwelfare.com/static/media/carousal_background.d77d94e41c5a71ae581f.png);
+    background-size: 100%;
+    display: inline-block;
+    height: 560px;
+    margin-top: 10px;
+    width: 100%;
+}
+.row{
+    display: flex;
+    margin: 0 -12px;
+    width: 100%;
+}
+.slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.color_theme_green{
+    color: #8dc63f;
+}
+.slide_btn{
+    background-color: #fff!important;
+    border: 1px solid #424242!important;
+    border-radius: 5px;
+    color: #424242!important;
+    padding: 15px 40px; 
+}
+.fa-arrow-right{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.slide_img{
+    padding: 20px;
+}
+.slide_img img{
+    height: 520px;
+    width: 100%;
+}
+
+/*    DONATION   BOX    */
+
+.donation-box{
+    background-color: rgba(182, 239, 73, .2);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 30px;
+    width: 100%;
+}
+.sub-heading{
+    color: #0d6db7;
+    font-size: 16px;
+    font-weight: 700;
+}
+.donation-amount{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.selected-box{
+    background-color: #424242!important;
+    color: #fff;
+}
+.amount-box{
+    background-color:#fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 16px 24px;
+}
+.donation-box-btn{
+    background-color: #8dc63f!important;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 15px 40px; 
+}   
+.carousel-main{
+    border: 3px double #8dc63f;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 0;
+    padding: 1px;
+}
+.saylani-img{
+    border-radius: 10px;
+    height: 560px;
+    width: 100%;
+}
+.carousel-box{
+    position: relative;
+}
+.carousel-box .play-box{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.video-play{
+    height: 80px;
+    object-fit: contain;
+    position: absolute;
+    width: 80px;
+}
+
+/*    HOME    SERVICES    */
+.services{
+    margin-top: 50px;
+}
+.heading{
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.col-12{
+    padding: 12px;
+}
+.service-box{
+    background-color: rgba(182, 239, 73, .2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #424242;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+.servive-icon img{
+    height: 70px;
+    object-fit: contain;
+    width: 70px;
+}
+.service-text{
+    margin-top: 10px;
+}
+.typo-text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/*   HOME  FUNDINGS   */
+.fundings{
+    margin-bottom: 30px;
+}
+.funding-box{
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+.funding-box img{
+    border-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.fund-box{
+    background-color: rgba(0,0,0,.6);
+    border-radius: 10px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+}
+.fund-box h4{
+    color: #fff;
+}
+.fund-box button{
+    background-color: #8dc63f;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px!important;
+    outline: none;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+/*   PROJECTS    */
+.projects{
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.picture-box{
+    position: relative;
+    width: 100%;
+}
+.picture-box img{
+    border-top-left-radius: 100px;
+    height: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.text-box{
+    align-items: center;
+    background-color: #8dc63f;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top-left-radius: 60px;
+    color: #fff;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    padding: 65px;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+.text-box-transparent-1{
+    background-color: initial;
+    border-bottom: 1px solid #fff;
+    border-top-right-radius: 100px;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+}
+.text-box-transparent-2{
+    background-color: initial;
+    border-left: 1px solid #fff;
+    bottom: 0;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+.project-items{
+    display: flex;
+    margin-bottom: 10px;
+}
+.project-items div div{
+    background-color: #eee;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.project-items div div img{
+    height: 30px;
+    object-fit: contain;
+    width: 30px;
+}
+
+.services-counter{
+    background-color: #0d6db7;
+    left: 0;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+}
+.counter-single{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.counter-img{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 60px;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 120px;
+}
+.counter-img img{
+    height: 50%;
+    object-fit: contain;
+    width: 50%;
+}
+.counter-heading{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+/*    TESTIMONIALS */
+.testimonials-heading{
+    text-align: center;
+    margin: 50px 0;
+}
+.testimonials-heading span{
+    color: #8dc63f;
+    font-size: 18px;
+}
+.testimonials-heading h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.testimonials-img{
+    border-radius: 50px;
+    height: 100px;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100px;
+}
+/*     CAROUSEL    */
+.testimonial-box{
+    background-color: #eee;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+}
+h4.typo-heading{
+    color: #0d6db7;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.testimonial-box span{
+    line-height: 30px;
+}
+.testimonial-box .text{
+    text-align: center;
+    margin: 10px;
+}
+.buttons-btn{
+    background-color: #eee;
+    text-align: center;
+    margin: 0 15px;
+}
+.testimonials-btn{
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+.backward-btn{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.forward-btn{
+    background-color: #8dc63f !important;
+    margin-left: 10px;
+}
+
+/*    MEDIA    */
+.media-heading, .news-heading{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ant-wrapper{
+    position: relative;
+}
+.ant-card{
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    box-sizing: border-box;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    position: relative;
+    margin-bottom: 20px;
+}
+.card-body{
+    padding: 0 !important;
+}
+.media-banner{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.media-banner img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+.media-banner .play-button{
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    object-fit: contain;
+    width: 50px;
+    z-index: 100;
+}
+.media-content{
+    padding: 10px !important;
+}
+.media-content h5, .news-box .news-content h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+.media-content span{
+    color: #424242 ;
+}
+.ant-ribbon{
+    background-color: #1890ff;
+    border-bottom-right-radius: 0 !important;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0 8px;
+    position: absolute;
+    top: 8px;
+    right: -8px;
+}
+
+/*    NEWS    */
+.news-box{
+    background-color: #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.news-box .news-img{
+    border-radius: inherit;
+}
+.news-box .news-img img{
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.news-box .news-content{
+    padding: 20px;
+}
+.news-box .news-content .news-date{
+    background-color: #8dc63f;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 6px 12px;
+}
+.news-box .news-content .news-button{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    padding: 10px 20px;
+}
+.saylani-guideline{
+    background-color: #0d6db7;
+    background-image: url(https://saylaniwelfare.com/static/media/guide_back.3a5127e910c15a49f875.png);
+    background-position: top;
+    background-size: cover;
+    margin: 50px 0;
+    padding: 50px;
+    text-align: center;
+}
+.justify-content{
+    justify-content: center;
+}
+.guide-heading{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+}
+.ant-input{
+    background-color: initial;
+    border: 1px solid #fff;
+    border-radius: 5px;;
+    display: inline-block;
+    font-size: 14px;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+.guide-btn{
+    background-color: #fff !important;
+    border-radius: 5px ;
+    color: #000 !important;
+    flex: 0.1 1;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+
+/*    FOOTER    */
+.footer{
+    background-color: #424242;
+    position: relative;
+    padding: 50px;
+}
+.social-icons{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    z-index: 1;
+}
+.social-icons div img{
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+.footer-about h4, .footer-contact h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 650;
+    margin-bottom: 10px;
+}
+.footer-about ul{
+    padding: 0;
+}
+.footer-about ul li{
+    line-height: 40px;
+    list-style-type: none;
+}
+.footer-about ul li span{
+    color: #fff;
+}
+.footer-contact span{
+    color: #fff;
+    font-size: 12px;
+}
+.footer-copyright{
+    align-items: center;
+    border-top: 0.2px solid hsla(0,0%,100%,.2);
+    display: flex;
+    justify-content: center;
+}
+.footer-copyright span{
+    color: #fff;
+    margin-top: 20px;
+}
